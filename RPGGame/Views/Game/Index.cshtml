@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<hr />
+<div id="startgame">
+    Enter Name <input type="text" name="HeroName" id="heroname" />
+    <button id="startbutton">Start Game</button>
+</div>
+<div id="Hero" class="gamepanel"></div>
+<div id="Monster" class="gamepanel"></div>
+
+<div id="control">
+    <button id="attack">Attack</button>
+    <div id="hattackresults"></div>
+    <div id="mattackresults"></div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/game.js"></script>
+}
