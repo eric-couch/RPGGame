@@ -13,9 +13,9 @@ namespace RPGGame.Controllers
             return View();
         }
 
-        public JsonResult GameStart(string Name)
-        {
-            return 
-        }
+        //public JsonResult GameStart(string Name)
+        //{
+        //    return 
+        //}
     }
 }
